@@ -1,4 +1,6 @@
-# VIM Setup
+Configurações dedicadas especialmente para a linguagem python (django/fastapi)
+
+## VIM Setup
 
 NVIM v0.6.1
 
