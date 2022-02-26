@@ -56,3 +56,7 @@ nnoremap <C-a> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <F4> :bd<CR>
 nnoremap <silent> <S-t> :tabnew<CR> 
+
+
+nmap <C-Left> :bp<CR>
+nmap <C-Right> :bn<CR>
