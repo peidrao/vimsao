@@ -32,6 +32,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-python/python-syntax'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -50,13 +51,15 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='wombat'
 
+let g:NERDCreateDefaultMappings = 1
+let g:NERDSpaceDelims = 1
+
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-b> :NERDTree<CR>
 nnoremap <C-a> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <F4> :bd<CR>
 nnoremap <silent> <S-t> :tabnew<CR> 
-
 
 nmap <C-Left> :bp<CR>
 nmap <C-Right> :bn<CR>
