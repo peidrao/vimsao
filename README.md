@@ -15,3 +15,13 @@ folke/tokyonight.nvim
 kyazdani42/nvim-tree.lua
 
 kyazdani42/nvim-web-devicons
+
+## Keymaps
+
+**nvim-tree**
+
+<leader>b : Nvim
+a: create directory
+f: filter 
+d: remove
+s: open file
