@@ -7,8 +7,11 @@ NVIM v0.8.0-dev
 Extensões básicas para funcionamento
 
 vim-airline/vim-airline
+
 vim-airline/vim-airline-themes
+
 folke/tokyonight.nvim
 
 kyazdani42/nvim-tree.lua
+
 kyazdani42/nvim-web-devicons
