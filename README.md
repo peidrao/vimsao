@@ -1,14 +1,14 @@
-Configurações dedicadas especialmente para a linguagem python (django/fastapi)
+## NVIM Setup
 
-## VIM Setup
+NVIM v0.8.0-dev
 
-NVIM v0.6.1
+## Plugins
 
-## Instalação do [Vim-Plug](https://github.com/junegunn/vim-plug)
+Extensões básicas para funcionamento
 
-Utilitário indispensável para os demais plugins que serão utilizados no NeoVim
+vim-airline/vim-airline
+vim-airline/vim-airline-themes
+folke/tokyonight.nvim
 
-## Plugins 
-
-Plug 'preservim/nerdtree'
-Plug 'vim-airline/vim-airline'
+kyazdani42/nvim-tree.lua
+kyazdani42/nvim-web-devicons
