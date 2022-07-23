@@ -1,7 +1,23 @@
-options = { noremap = true }
+local set = vim.api.nvim_set_keymap
+local ns = { noremap = true, silent = true }
 
--- Change panes on vim ctrl mappings
+-- Command
+set("n", ";", ":", { noremap = true })
 
--- Escape maps to a rolling jk
-vim.api.nvim_set_keymap('i', 'jk', '<ESC>', options)
-vim.api.nvim_set_keymap('n', 'b', ':NvimTreeToggle', { noremap = true, silent = true })
+-- Clean Search
+set("n", "<Leader><Space>", ":let @/=''<CR>", ns)
+
+-- Window
+set("n", "<C-j>", ":resize -2<CR>", ns)
+set("n", "<C-k>", ":resize +2<CR>", ns)
+set("n", "<C-h>", ":vertical resize -2<CR>", ns)
+set("n", "<C-l>", ":vertical resize +2<CR>", ns)
+set("n", "<Leader>h", ":<C-u>split<CR>", ns)
+set("n", "<Leader>v", ":<C-u>vsplit<CR>", ns)
+
+-- Moving
+set("n", "j", "gj", ns)
+set("n", "k", "gk", ns)
+
+
+set('n', "<C-b>", ':NvimTreeToggle<CR>', ns)
