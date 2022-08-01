@@ -13,13 +13,18 @@ NVIM v0.8.0-dev
 
 ## Keymaps
 
-**nvim-tree**
+| leader |           |
+| :---:    | :-: 
+| b | nvimtree toggle  |
+| m | nvimtree focus   |
+| t |  telescope files |
 
-<leader>b : nvimtree toggle
-<leader>m : nvimtree focus
-<leader>t : telescope files
+
+### Nvim Tree
 a: create directory
-f: filter 
-d: remove
-s: open file
 
+f: filter 
+
+d: remove
+
+s: open file
