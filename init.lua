@@ -1,5 +1,13 @@
 
 require('plugins.packer')
+require("nvim-autopairs").setup{}
+require'lspconfig'.pyright.setup{}
+require'nvim-web-devicons'.get_icons()
+require('plugins.treesitter')
+require('plugins.lspconfig')
+require('globals.remaps')
+-- require('globals.autocompletion')
+
 vim.g.tokyonight_style = "night"
 vim.g.tokyonight_italic_functions = true
 vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
@@ -77,8 +85,8 @@ require("nvim-tree").setup({
 })
 
 vim.opt.termguicolors = true
-require("bufferline").setup{}
 
+require('plugins.bufferline')
 -- require'lspconfig'.pyright.setup{}
 require'nvim-treesitter.configs'.setup {
   ensure_installed = { "c", "lua", "python"},
@@ -110,10 +118,4 @@ require('telescope').setup{
   }
 }
 
-require("nvim-autopairs").setup{}
-require'lspconfig'.pyright.setup{}
-require'nvim-web-devicons'.get_icons()
-require('plugins.treesitter')
-require('plugins.lspconfig')
-require('globals.remaps')
--- require('globals.autocompletion')
+
