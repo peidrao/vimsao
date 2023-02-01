@@ -6,7 +6,7 @@ require'nvim-web-devicons'.get_icons()
 require('plugins.treesitter')
 require('plugins.lspconfig')
 require('globals.remaps')
--- require('globals.autocompletion')
+require('globals.autocompletion')
 
 vim.g.tokyonight_style = "night"
 vim.g.tokyonight_italic_functions = true

@@ -18,6 +18,7 @@ set("n", "<Leader>v", ":<C-u>vsplit<CR>", ns)
 vim.api.nvim_set_keymap('n', '<M-Right>', '<CMD>BufferLineCycleNext<CR>', ns)
 vim.api.nvim_set_keymap('n', '<M-Left>', '<CMD>BufferLineCyclePrev<CR>', ns)
 vim.api.nvim_set_keymap('n', '<C-DEL>', '<CMD>BufferLinePickClose<CR>', ns)
+
 -- Moving
 set("n", "j", "gj", ns)
 set("n", "k", "gk", ns)
