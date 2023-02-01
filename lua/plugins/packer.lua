@@ -1,13 +1,15 @@
 vim.cmd [[packadd packer.nvim]]
 
-return require('packer').startup(function()
+return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-
+  -- WakaTme
+  use 'wakatime/vim-wakatime'
   -- Themes 
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
   use 'folke/tokyonight.nvim'
+
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
   use 'nvim-treesitter/nvim-treesitter'
   use 'hrsh7th/nvim-cmp' -- Autocompletion plugin

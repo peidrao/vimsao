@@ -1,3 +1,5 @@
+
+require('plugins.packer')
 vim.g.tokyonight_style = "night"
 vim.g.tokyonight_italic_functions = true
 vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
@@ -111,8 +113,7 @@ require('telescope').setup{
 require("nvim-autopairs").setup{}
 require'lspconfig'.pyright.setup{}
 require'nvim-web-devicons'.get_icons()
-require('plugins.packer')
 require('plugins.treesitter')
 require('plugins.lspconfig')
 require('globals.remaps')
-require('globals.autocompletion')
+-- require('globals.autocompletion')
