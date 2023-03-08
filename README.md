@@ -1,21 +1,31 @@
 <img src="https://neovim.io/logos/neovim-mark-flat.png" align="right" width="144" />
 
-# Awesome Neovim [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+## Nvim Config
 
-
-> Collections of awesome Neovim plugins. 
-
-
-NVIM v0.8.0-dev
+NVIM v0.8.3
 
 ## Plugins
+
+- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - package manager   
+- [wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime) - code metrics
+
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - Theme   
+- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP Config   
+- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A Completion plugin 
+- [hrsh7th/cmp-nvim-lsp'](https://github.com/hrsh7th/cmp-nvim-lsp) -
+- [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) -   
+- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) -   
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) -   
+- [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) -   
 
 
 ## Keymaps
 
-| leader |           |
-| :---:    | :-: 
-| b | nvimtree toggle  |
-| m | nvimtree focus   |
-| t |  telescope files |
+| leader  |                  |
+| b       | Nvimtree toggle  |
+| m       | Nvimtree focus   |
+| t       | Telescope files  |
 
