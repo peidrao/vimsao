@@ -7,8 +7,8 @@ return require('packer').startup(function(use)
   -- Themes 
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
-  use 'folke/tokyonight.nvim'
-
+  -- use 'folke/tokyonight.nvim'
+  use 'Mofiqul/dracula.nvim'
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
   use 'nvim-treesitter/nvim-treesitter'
   use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
