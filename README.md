@@ -19,12 +19,3 @@ NVIM v0.8.0-dev
 | m | nvimtree focus   |
 | t |  telescope files |
 
-
-### Nvim Tree
-a: create directory
-
-f: filter 
-
-d: remove
-
-s: open file
