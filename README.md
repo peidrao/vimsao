@@ -21,14 +21,23 @@ NVIM v0.8.3
 - [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) -   
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) -   
 
-## Keymaps
 
+## Keymaps
 
 **leader equals ctrl**
 
-| leader  | Action           |
+| Leader  | Action           |
 | ------- | ---------------- |
 | b       | Nvimtree toggle  |
 | m       | Nvimtree focus   |
 | t       | Telescope files  |
+
+
+
+## Tricks
+
+
+| Command                    | Action                     |
+| -------------------------- | -------------------------- |
+| :%s/old_world/new_world/g  | global search and replace  |
 
