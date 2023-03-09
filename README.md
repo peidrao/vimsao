@@ -9,7 +9,7 @@ NVIM v0.8.3
 - [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) - package manager   
 - [wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime) - code metrics
 
-- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - Theme   
+- [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) - Theme
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP Config   
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A Completion plugin 
@@ -21,10 +21,13 @@ NVIM v0.8.3
 - [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) -   
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) -   
 
-
 ## Keymaps
 
-| leader  |                  |
+
+**leader equals ctrl**
+
+| leader  | Action           |
+| ------- | ---------------- |
 | b       | Nvimtree toggle  |
 | m       | Nvimtree focus   |
 | t       | Telescope files  |
