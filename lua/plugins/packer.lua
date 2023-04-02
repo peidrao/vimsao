@@ -6,6 +6,8 @@ return require('packer').startup(function(use)
   use 'wakatime/vim-wakatime'
   -- Themes 
   use 'Mofiqul/dracula.nvim'
+  use { "ellisonleao/gruvbox.nvim" }
+
 
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
   use 'nvim-treesitter/nvim-treesitter'

@@ -8,7 +8,8 @@ require('plugins.lspconfig')
 require('globals.remaps')
 require('globals.autocompletion')
 
-vim.cmd[[colorscheme dracula]]
+vim.o.background = "dark"
+vim.cmd[[colorscheme gruvbox]]
 
 local g = vim.g
 local opt = vim.opt
