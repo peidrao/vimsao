@@ -33,9 +33,7 @@ NVIM v0.8.3
 | t       | Telescope files  |
 
 
-
 ## Tricks
-
 
 | Command                    | Action                     |
 | -------------------------- | -------------------------- |
