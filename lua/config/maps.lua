@@ -24,5 +24,3 @@ set("n", "k", "gk", ns)
 
 set('n', "<C-b>", ':NvimTreeToggle<CR>', ns)
 set('n', "<C-m>", ':NvimTreeFocus<CR>', ns)
-set('n', "<C-t>", ':Telescope find_files<CR>', ns)
-
