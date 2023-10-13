@@ -7,6 +7,8 @@ return require('packer').startup(function(use)
 
   use 'wakatime/vim-wakatime'
 
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
   use 'neovim/nvim-lspconfig' 
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'

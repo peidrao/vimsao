@@ -9,4 +9,5 @@ require'lspconfig'.pyright.setup{}
 require('plugins.lspconfig')
 require('plugins.completions')
 require('plugins.nvim-tree')
+require("bufferline").setup{}
 
