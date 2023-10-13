@@ -8,7 +8,6 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig' 
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
-  
 
   use 'nvim-tree/nvim-web-devicons'
   use {
@@ -16,7 +15,7 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true } 
   }
   use {
-	'nvim-tree/nvim-tree.lua',
-	requires = {'nvim-tree/nvim-web-devicons',},
+    'nvim-tree/nvim-tree.lua',
+    requires = {'nvim-tree/nvim-web-devicons',},
   }
 end)

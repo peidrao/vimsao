@@ -1,5 +1,3 @@
--- nvim-tree config
-
 require("nvim-tree").setup{
   sort_by = "case_sensitive",
   view = {
@@ -13,3 +11,4 @@ require("nvim-tree").setup{
     dotfiles = true,
   },
 }
+

@@ -21,6 +21,5 @@ vim.api.nvim_set_keymap('n', '<C-DEL>', '<CMD>BufferLinePickClose<CR>', ns)
 set("n", "j", "gj", ns)
 set("n", "k", "gk", ns)
 
-
 set('n', "<C-b>", ':NvimTreeToggle<CR>', ns)
 set('n', "<C-m>", ':NvimTreeFocus<CR>', ns)
