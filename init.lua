@@ -10,4 +10,4 @@ require('plugins.lspconfig')
 require('plugins.completions')
 require('plugins.nvim-tree')
 require("bufferline").setup{}
-
+require('plugins.treesitter')

@@ -4,6 +4,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   use { "ellisonleao/gruvbox.nvim" }
   use 'wbthomason/packer.nvim'
+  
+  use 'nvim-treesitter/nvim-treesitter'
 
   use 'wakatime/vim-wakatime'
 
