@@ -3,6 +3,7 @@ vim.g.maplocalleader = ' '
 vim.g.loaded_netrw = 1
 vim.g.mapleader = ' '
 vim.g.loaded_netrwPlugin = 1
+vim.g.encoding = "utf8"
 
 vim.o.hlsearch = false
 vim.o.mouse = 'a'
