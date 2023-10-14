@@ -1,8 +1,9 @@
 vim.cmd [[packadd packer.nvim]]
 
-
 return require('packer').startup(function(use)
-  use { "ellisonleao/gruvbox.nvim" }
+  -- use { "ellisonleao/gruvbox.nvim" }
+  use "folke/tokyonight.nvim" 
+
   use 'wbthomason/packer.nvim'
   
   use 'nvim-treesitter/nvim-treesitter'
