@@ -39,4 +39,4 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.background = "dark"
 vim.o.termguicolors = true
 
-vim.cmd[[colorscheme tokyonight-storm]]
+vim.cmd[[colorscheme xcodedarkhc]]
