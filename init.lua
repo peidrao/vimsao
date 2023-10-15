@@ -12,5 +12,8 @@ require("bufferline").setup{}
 require('lualine').setup{ 
   options = { theme  = 'moonfly', },
 }
+require('gitblame').setup {
+    enabled = true,
+}
 
-
+require('gitsigns').setup()
