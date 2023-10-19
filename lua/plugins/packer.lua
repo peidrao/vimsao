@@ -1,9 +1,7 @@
 vim.cmd [[packadd packer.nvim]]
 
-return require('packer').startup(function(use)
-  -- use { "ellisonleao/gruvbox.nvim" }
-  -- use "folke/tokyonight.nvim" 
 
+return require('packer').startup(function(use)
     use 'arzg/vim-colors-xcode'
 
     use 'wbthomason/packer.nvim'  
@@ -28,5 +26,4 @@ return require('packer').startup(function(use)
     use { 'nvim-tree/nvim-tree.lua',
         requires = {'nvim-tree/nvim-web-devicons',},
     }
-
 end)
