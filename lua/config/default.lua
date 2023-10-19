@@ -1,42 +1,44 @@
-vim.wo.number = true
-vim.g.maplocalleader = ' '
-vim.g.loaded_netrw = 1
-vim.g.mapleader = ' '
-vim.g.loaded_netrwPlugin = 1
-vim.g.encoding = "utf8"
+opt, g, wo, cmd = vim.opt, vim.g, vim.wo, vim.cmd
 
-vim.o.swapfile = false
-vim.o.wrap = false
-vim.o.colorcolumn = '80'
-vim.o.cursorline = true
+wo.number = true
 
-vim.o.hlsearch = false
-vim.o.mouse = 'a'
-vim.o.clipboard = 'unnamedplus'
-vim.o.breakindent = true
-vim.o.undofile = true
-vim.o.ignorecase = true
-vim.o.smartcase = true
-vim.o.updatetime = 250
-vim.o.timeout = true
-vim.o.timeoutlen = 300
+g.maplocalleader = ' '
+g.loaded_netrw = 1
+g.mapleader = ' '
+g.loaded_netrwPlugin = 1
+g.encoding = "utf8"
 
-vim.o.signcolumn = 'yes' 
+opt.swapfile = false
+opt.wrap = false
+opt.colorcolumn = '80'
+opt.cursorline = true
 
-vim.o.hidden = true
-vim.o.lazyredraw = true
-vim.o.synmaxcol = 240
+opt.hlsearch = false
+opt.mouse = 'a'
+opt.clipboard = 'unnamedplus'
+opt.breakindent = true
+opt.undofile = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.updatetime = 250
+opt.timeout = true
+opt.timeoutlen = 300
 
-vim.o.tabstop = 2
-vim.o.softtabstop = 4
-vim.o.smartindent = true
-vim.o.shiftwidth = 4
-vim.o.expandtab = true
-vim.o.autoindent = true
+opt.signcolumn = 'yes' 
 
-vim.o.completeopt = 'menuone,noselect'
+opt.hidden = true
+opt.lazyredraw = true
+opt.synmaxcol = 240
+opt.tabstop = 2
+opt.softtabstop = 4
+opt.smartindent = true
+opt.shiftwidth = 4
+opt.expandtab = true
+opt.autoindent = true
 
-vim.o.background = "dark"
-vim.o.termguicolors = true
+opt.completeopt = 'menuone,noselect'
 
-vim.cmd[[colorscheme xcodedarkhc]]
+opt.background = "dark"
+opt.termguicolors = true
+
+cmd[[colorscheme xcodedarkhc]]
