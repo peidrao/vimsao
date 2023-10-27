@@ -9,6 +9,7 @@ require('plugins.completions')
 require('plugins.nvim-tree')
 require('plugins.treesitter')
 
+-- init plugins
 require('nvim-web-devicons').get_icons()
 require('lspconfig').pyright.setup{}
 require("bufferline").setup{}
