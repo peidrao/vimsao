@@ -13,9 +13,9 @@ set("n", "<C-l>", ":vertical resize +2<CR>", ns)
 set("n", "<Leader>h", ":<C-u>split<CR>", ns)
 set("n", "<Leader>v", ":<C-u>vsplit<CR>", ns)
 
-vim.api.nvim_set_keymap('n', '<M-Right>', '<CMD>BufferLineCycleNext<CR>', ns)
-vim.api.nvim_set_keymap('n', '<M-Left>', '<CMD>BufferLineCyclePrev<CR>', ns)
-vim.api.nvim_set_keymap('n', '<C-DEL>', '<CMD>BufferLinePickClose<CR>', ns)
+set('n', '<M-Right>', '<CMD>BufferLineCycleNext<CR>', ns)
+set('n', '<M-Left>', '<CMD>BufferLineCyclePrev<CR>', ns)
+set('n', '<C-DEL>', '<CMD>BufferLinePickClose<CR>', ns)
 
 -- Moving
 set("n", "j", "gj", ns)
