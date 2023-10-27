@@ -9,21 +9,28 @@ return require('packer').startup(function(use)
 
     use 'wakatime/vim-wakatime'
 
-    use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+    use {
+        'akinsho/bufferline.nvim', 
+        tag = "*", 
+        requires = 'nvim-tree/nvim-web-devicons'
+    }
 
     use 'f-person/git-blame.nvim'
     use 'lewis6991/gitsigns.nvim'
 
-    use 'neovim/nvim-lspconfig' 
+    use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-nvim-lsp'
-
+    
     use 'nvim-tree/nvim-web-devicons'
+
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true } 
     }
-    use { 'nvim-tree/nvim-tree.lua',
-        requires = {'nvim-tree/nvim-web-devicons',},
+    use { 
+        'nvim-tree/nvim-tree.lua',
+        requires = 'nvim-tree/nvim-web-devicons'
     }
 end)
+
